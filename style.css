@@ -171,8 +171,8 @@ a {
 @media only screen and (max-width: 650px) {
 
     body {
-        background: none;
-        background-color: aqua;
+        /* background: none;
+        background-color: aqua; */
     }
 
     .social-div {
@@ -240,8 +240,8 @@ a {
 @media only screen and (max-width: 400px) {
 
     body {
-        background: none;
-        background-color: rgb(150, 41, 84);
+        /* background: none;
+        background-color: rgb(150, 41, 84); */
     }
 
     .logo-img {
