@@ -1,0 +1,156 @@
+body {
+    height: 100vh;
+    background: linear-gradient(#973b10, #c28466);
+}
+
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+
+
+
+.title-div {
+    text-align: center;
+    font-family: "Moderustic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal
+  
+}
+
+.ham-menu {
+    width: 75px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#ham-menu-close {
+    width: 75px;
+    margin: 17px 0px 8% 18px;
+    cursor: pointer;
+}
+
+
+.spice-title {
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: 2.5px;
+    color: #be8f77;
+    margin: 0;
+}
+
+.studio-title {
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    color: #be8f77;
+    margin: 0;
+
+}
+
+.logo-div {
+}
+
+.logo-img {
+    width: 100px;
+    margin: 10px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.main {
+}
+
+#ham-menu-open {
+    width: 300px;
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  
+    overflow-y: scroll;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+
+    position: fixed;
+    transition: all 0.35s ease-in-out;
+    transform: translateX(-100%);
+    z-index: 10;
+    
+
+}
+
+#ham-menu-open.toggle-open {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+
+
+
+
+
+.menu-list {
+    margin: 0px;
+    color: #be8f77;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    letter-spacing: 2.5px;
+
+}
+
+.sub-list {
+    margin: 0px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    color: #be8f77;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+#about-list {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-div {
+    margin-top: 5%;
+    margin-right: 15px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    float: right;
+
+}
+
+.twitch-img, .yt-img, .ig-img, .x-img {
+    width: 100%;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+
+.inner-content {
+    padding: 20px;
+    width: 50%;
+    margin: 8% auto 0 auto;
+    text-align: center;
+}
+
+.about-para {
+    color: #4b1d05;
+    font-family: "Moderustic", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
