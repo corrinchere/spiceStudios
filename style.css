@@ -202,6 +202,15 @@ a {
         left: 0;
     }
 
+    .logo-img {
+        width: 70px;
+        margin: 15px;
+        cursor: pointer;
+        position: fixed;
+        z-index: 5;
+        right: 0;
+    }
+
     #ham-menu-open {
         background-color: rgb(151, 59, 16, 0.6);
         width: 220px;
@@ -283,7 +292,7 @@ a {
     }
 
     .logo-img {
-        width: 70px;
+        width: 50px;
         margin: 15px;
         cursor: pointer;
         position: fixed;
