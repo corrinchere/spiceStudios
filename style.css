@@ -166,6 +166,20 @@ a {
     font-size: 25px;
 }
 
+.grid-icon-div{
+    width: 575px;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} 
+
+.grid-icons {
+    width: 100px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
 
 /* BLUE BACKGROUND */
 @media only screen and (max-width: 650px) {
@@ -234,6 +248,30 @@ a {
         font-size: 22px;
     }
     
+    .spice-title {
+
+        margin-top: 30px;
+        padding-top: 40px;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 2.5px;
+        color: #be8f77;
+        margin: 0;
+    }
+
+    .grid-icon-div{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+    
+    .grid-icons {
+        width: 100px;
+        margin: 10px auto;
+        cursor: pointer;
+    }
 
 }
 
@@ -278,6 +316,20 @@ a {
     #ham-menu-close {
         width: 50px;
         margin: 20px 0px 40px 20px;
+        cursor: pointer;
+    }
+
+    .grid-icon-div{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+    
+    .grid-icons {
+        width: 75px;
+        margin: 10px auto;
         cursor: pointer;
     }
 
