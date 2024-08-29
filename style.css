@@ -284,7 +284,7 @@ a {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
 
     body {
         /* background: none;
@@ -293,7 +293,7 @@ a {
 
     .logo-img {
         width: 50px;
-        margin: 15px;
+        margin: 10px;
         cursor: pointer;
         position: fixed;
         z-index: 5;
