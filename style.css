@@ -171,13 +171,18 @@ a {
     margin: auto;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 } 
 
 .grid-icons {
     width: 100px;
     margin: 10px auto;
     cursor: pointer;
+}
+
+
+.bystand-v1 {
+    width: 300px;
 }
 
 
@@ -341,6 +346,8 @@ a {
         margin: 10px auto;
         cursor: pointer;
     }
+
+
 
 
 }
